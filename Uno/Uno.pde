@@ -80,6 +80,8 @@ private void prepareExitHandler() {
 
 
 void drawOpponents() {
+  if(playerNames == null)
+    playerNames = new String[0];
   
   float y = height/10;
   textSize(40);
